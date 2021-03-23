@@ -28,4 +28,4 @@ R --vanilla < [Your R file].R > [R output file name]
 cd $PBS_O_WORKDIR
 
 ##### Execute Program #####
-R --vanilla < [Your R file].R > [R output file name]
+R --vanilla < [Your R file].R > [R output file the real file name]
