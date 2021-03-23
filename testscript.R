@@ -22,3 +22,10 @@ cd $PBS_O_WORKDIR
 
 ##### Execute Program #####
 R --vanilla < [Your R file].R > [R output file name]
+
+
+##### Change to current working directory #####
+cd $PBS_O_WORKDIR
+
+##### Execute Program #####
+R --vanilla < [Your R file].R > [R output file name]
